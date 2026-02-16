@@ -1,0 +1,18 @@
+[
+{
+  "_id": {
+    "$oid": "698863a91634c672cc301d44"
+  },
+  "email": "admin@foodieland.com",
+  "password": "$2b$10$uYQ.p5XG/ncyXPxeGZ34.OEWsH89xendno3lDsVVqSd/EKF6HP2Te",
+  "fullName": "Super Admin ",
+  "createdAt": {
+    "$date": "2026-02-08T10:21:29.768Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-10T00:25:24.623Z"
+  },
+  "__v": 0,
+  "refreshToken": "$2b$10$ucvhvBfNh5/GPE7U6KylouiZBxpF6TxGYWAezq1XAlvcwFt.aF53i",
+  "profilePicture": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770566366/roa8xnmgotvkr7dkmxvh.jpg"
+}]

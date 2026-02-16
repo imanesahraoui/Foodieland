@@ -1,0 +1,64 @@
+version: "3.8"
+
+services:
+  food-eiland-db:
+    image: mongo:7.0
+    container_name: food-eiland-db
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: ${MONGO_DB_NAME}
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+    volumes:
+      - ./mongo-seed:/docker-entrypoint-initdb.d:ro
+      - mongo_data:/data/db
+    networks:
+      - food-eiland-net
+
+  backend:
+    build: ./backend
+    container_name: food-eiland-backend
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: ${PORT}
+      MONGO_USERNAME: ${MONGO_USERNAME}
+      MONGO_PASSWORD: ${MONGO_PASSWORD}
+      MONGO_DB_NAME: ${MONGO_DB_NAME}
+      MONGO_HOST: ${MONGO_HOST}
+      MONGO_PORT: ${MONGO_PORT}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET}
+      JWT_ACCESS_SECRET: ${JWT_ACCESS_SECRET}
+      MODE: ${MODE}
+      HOST: ${HOST}
+      CLOUDINARY_CLOUD_NAME: ${CLOUDINARY_CLOUD_NAME}
+      CLOUDINARY_API_KEY: ${CLOUDINARY_API_KEY}
+      CLOUDINARY_API_SECRET: ${CLOUDINARY_API_SECRET}
+      FRONTNED_URL: ${FRONTNED_URL}
+
+    depends_on:
+      - food-eiland-db
+    restart: always
+    networks:
+      - food-eiland-net
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
+
+    container_name: food-eiland-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: always
+    networks:
+      - food-eiland-net
+
+volumes:
+  mongo_data:
+networks:
+  food-eiland-net:

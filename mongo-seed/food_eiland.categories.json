@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "69889fd08f94fc2e6e1c7155"
+  },
+  "name": "Chocolate",
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770561488/lbkt6xqqapgpzrsiioue.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6988a41fa1c2e5621904f77f"
+  },
+  "name": "Lunch",
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770562591/pb5eocp58jbjqhbla4gz.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b62097cc816baf0f5d046"
+  },
+  "name": "Dessert",
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770742281/z2lueunjuapjhyf6bczv.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b62497cc816baf0f5d049"
+  },
+  "name": "Meat",
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770742344/vetuptngrs5xse28uce2.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b627d7cc816baf0f5d04e"
+  },
+  "name": "Vegan",
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770742397/emhtnnee9wpox8qj6pci.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b629b7cc816baf0f5d051"
+  },
+  "name": "Breakfast",
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770742426/h72chnfewnm4dtge9ck6.png",
+  "__v": 0
+}]

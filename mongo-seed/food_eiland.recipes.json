@@ -1,0 +1,293 @@
+[{
+  "_id": {
+    "$oid": "698b65427cc816baf0f5d08d"
+  },
+  "title": "Strawberry Oatmeal Pancakes with Honey Syrup",
+  "description": "These pancakes are a healthy, fiber-rich alternative to traditional pancakes, using oats for texture and fresh strawberries for sweetness.",
+  "instructions": [
+    {
+      "title": "Prepare the Flour:",
+      "description": "If using whole oats, blend them in a food processor until they reach a fine, flour-like consistency.",
+      "_id": {
+        "$oid": "698b65427cc816baf0f5d08e"
+      }
+    },
+    {
+      "title": "Mix Dry Ingredients",
+      "description": "In a large bowl, whisk together the oat flour, baking powder, cinnamon, and salt.",
+      "_id": {
+        "$oid": "698b65427cc816baf0f5d08f"
+      }
+    },
+    {
+      "title": "Cook:",
+      "description": "Heat a non-stick skillet over medium heat with a little oil or butter. Pour about ¼ cup of batter for each pancake. Cook until bubbles form on the surface, then flip and cook until golden brown (about 2–3 minutes per side).",
+      "_id": {
+        "$oid": "698b65427cc816baf0f5d090"
+      }
+    }
+  ],
+  "cookingTime": 14,
+  "preparationTime": 30,
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770743103/ogw39hcvg3otdeziybcs.png",
+  "category": "Breakfast",
+  "ingredients": [
+    "1 ½ cups Rolled oats (blended into flour) or oat flour",
+    "1 tsp Baking powder",
+    "1 pinch Salt",
+    "½ tsp Cinnamon",
+    "1 Large egg",
+    "1 cup Milk",
+    "½ cup Fresh strawberries, finely chopped"
+  ],
+  "nutritions": [
+    {
+      "name": "Calories",
+      "quantity": "320 kcal",
+      "_id": {
+        "$oid": "698b65427cc816baf0f5d091"
+      }
+    },
+    {
+      "name": "Protein",
+      "quantity": "10g",
+      "_id": {
+        "$oid": "698b65427cc816baf0f5d092"
+      }
+    },
+    {
+      "name": "Total Fat",
+      "quantity": "8g",
+      "_id": {
+        "$oid": "698b65427cc816baf0f5d093"
+      }
+    },
+    {
+      "name": "Carbohydrates",
+      "quantity": "52g",
+      "_id": {
+        "$oid": "698b65427cc816baf0f5d094"
+      }
+    }
+  ],
+  "createdBy": "698863a91634c672cc301d44",
+  "authorName": "Super Admin ",
+  "authorAvatar": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770690138/zyu8mt8aaowyxzrnkjmf.png",
+  "createdAt": {
+    "$date": "2026-02-10T17:05:06.017Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-10T17:05:06.017Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b66747cc816baf0f5d0c5"
+  },
+  "title": "Chicken Meatballs with Cream Cheese",
+  "description": "These meatballs are incredibly tender and creamy, making them a perfect high-protein meal that can be prepared in just 30 minutes.",
+  "instructions": [
+    {
+      "title": "Combine",
+      "description": "In a large mixing bowl, mix the ground chicken, softened cream cheese, egg, breadcrumbs, garlic, and seasonings.",
+      "_id": {
+        "$oid": "698b66747cc816baf0f5d0c6"
+      }
+    },
+    {
+      "title": "Sear",
+      "description": "Place the meatballs in the skillet and cook for 8–10 minutes, turning occasionally until golden brown and the internal temperature reaches 165°F (74°C).",
+      "_id": {
+        "$oid": "698b66747cc816baf0f5d0c7"
+      }
+    }
+  ],
+  "cookingTime": 14,
+  "preparationTime": 15,
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770743411/v7yno763ulyxomxckpzg.png",
+  "category": "Meat",
+  "ingredients": [
+    "1 lb (450g) Ground chicken",
+    "4 oz (115g) Cream cheese, softened",
+    "1 tsp Onion powder"
+  ],
+  "nutritions": [
+    {
+      "name": "Calories",
+      "quantity": "285 kcal",
+      "_id": {
+        "$oid": "698b66747cc816baf0f5d0c8"
+      }
+    },
+    {
+      "name": "Fiber",
+      "quantity": "1g",
+      "_id": {
+        "$oid": "698b66747cc816baf0f5d0c9"
+      }
+    }
+  ],
+  "createdBy": "698863a91634c672cc301d44",
+  "authorName": "Super Admin ",
+  "authorAvatar": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770690138/zyu8mt8aaowyxzrnkjmf.png",
+  "createdAt": {
+    "$date": "2026-02-10T17:10:12.323Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-10T17:10:12.323Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b6ca37cc816baf0f5d1f8"
+  },
+  "title": "Fruity Pancake with Orange & Blueberry",
+  "description": "This vibrant breakfast option combines the citrus tang of oranges with the sweetness of blueberries for a refreshing start to the day.",
+  "instructions": [
+    {
+      "title": "Whisk Dry Ingredients",
+      "description": "n a medium bowl, combine flour, sugar, baking powder, baking soda, and salt.In another bowl, beat the egg and whisk in the buttermilk and melted butter.",
+      "_id": {
+        "$oid": "698b6ca37cc816baf0f5d1f9"
+      }
+    },
+    {
+      "title": "Cook",
+      "description": "Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+      "_id": {
+        "$oid": "698b6ca37cc816baf0f5d1fa"
+      }
+    }
+  ],
+  "cookingTime": 9,
+  "preparationTime": 10,
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770744994/su0uqg59k29c2bj4uuna.png",
+  "category": "Dessert",
+  "ingredients": [
+    "1 cup All-purpose flour",
+    "1 tbsp Sugar",
+    "1 tsp Baking powder"
+  ],
+  "nutritions": [
+    {
+      "name": "Calories",
+      "quantity": "310 kcal",
+      "_id": {
+        "$oid": "698b6ca37cc816baf0f5d1fb"
+      }
+    }
+  ],
+  "createdBy": "698863a91634c672cc301d44",
+  "authorName": "Super Admin ",
+  "authorAvatar": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770690138/zyu8mt8aaowyxzrnkjmf.png",
+  "createdAt": {
+    "$date": "2026-02-10T17:36:35.222Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-10T17:36:35.222Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b6d6c7cc816baf0f5d20e"
+  },
+  "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+  "description": "This comforting noodle dish combines savory bacon and tender chicken in a rich, velvety sauce.",
+  "instructions": [
+    {
+      "title": "Boil Pasta",
+      "description": "Cook the pasta in a large pot of salted boiling water according to package directions until al dente. Drain and set aside.",
+      "_id": {
+        "$oid": "698b6d6c7cc816baf0f5d20f"
+      }
+    },
+    {
+      "title": "Sear Chicken",
+      "description": "Add the chicken slices to the skillet. Season with salt and pepper, and cook until golden and cooked through. Remove and set aside.",
+      "_id": {
+        "$oid": "698b6d6c7cc816baf0f5d210"
+      }
+    }
+  ],
+  "cookingTime": 8,
+  "preparationTime": 15,
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770745195/yjchn5jperdo1g3lgozx.png",
+  "category": "Lunch",
+  "ingredients": [
+    "2 Chicken breasts"
+  ],
+  "nutritions": [
+    {
+      "name": "Calories",
+      "quantity": "580 kcal",
+      "_id": {
+        "$oid": "698b6d6c7cc816baf0f5d211"
+      }
+    }
+  ],
+  "createdBy": "698863a91634c672cc301d44",
+  "authorName": "Super Admin ",
+  "authorAvatar": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770690138/zyu8mt8aaowyxzrnkjmf.png",
+  "createdAt": {
+    "$date": "2026-02-10T17:39:56.625Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-10T17:39:56.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b6f027cc816baf0f5d242"
+  },
+  "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+  "description": "This vibrant, Mediterranean-inspired bowl combines protein-rich chickpeas, fresh vegetables, and sweet figs for a balanced and healthy meal.",
+  "instructions": [
+    {
+      "title": "Prepare the Chickpeas",
+      "description": "If you prefer them crunchy, toss cooked chickpeas with a little olive oil and salt, then roast at 200°C (400°F) for 15 minutes.",
+      "_id": {
+        "$oid": "698b6f027cc816baf0f5d243"
+      }
+    },
+    {
+      "title": "Chop the Vegetables",
+      "description": "Dice the cucumbers and bell peppers into small, uniform cubes.",
+      "stepImage": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770745601/yoflk25csy3vdpsmxolg.png",
+      "_id": {
+        "$oid": "698b6f027cc816baf0f5d244"
+      }
+    }
+  ],
+  "cookingTime": 5,
+  "preparationTime": 10,
+  "imageUrl": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770745595/vj0zmuvpdp6kmp7hskyv.png",
+  "category": "Lunch",
+  "ingredients": [
+    "1 cup Cooked chickpeas",
+    "2 cups Fresh arugula or mixed greens",
+    "2 tbsp Light mayonnaise"
+  ],
+  "nutritions": [
+    {
+      "name": "Total Fat",
+      "quantity": "14g",
+      "_id": {
+        "$oid": "698b6f027cc816baf0f5d245"
+      }
+    }
+  ],
+  "createdBy": "698863a91634c672cc301d44",
+  "authorName": "Super Admin ",
+  "authorAvatar": "https://res.cloudinary.com/dmdnjvaku/image/upload/v1770690138/zyu8mt8aaowyxzrnkjmf.png",
+  "createdAt": {
+    "$date": "2026-02-10T17:46:42.544Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-10T17:46:42.544Z"
+  },
+  "__v": 0
+}]
